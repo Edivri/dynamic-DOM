@@ -1,0 +1,93 @@
+:root {
+    --gold: rgb(229, 152, 25);
+    --black: #000000;
+    --white: #ffffff;
+    --grey: rgb(128, 128, 128);
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .border-1 {
+    border: 2px solid black;
+  }
+  .border-2 {
+    border: 4px solid black;
+  }
+  .border-1r {
+    border: 2px solid red;
+  }
+  .border-2r {
+    border: 4px solid red;
+  }
+  .border-1d {
+    border: 2px dotted black;
+  }
+  .border-2d {
+    border: 4px dotted black;
+  }
+  .border-1dr {
+    border: 2px dotted red;
+  }
+  .border-2dr {
+    border: 4px dotted red;
+  }
+  .bg-white {
+    background: var(--white);
+  }
+  .bg-black {
+    background: var(--black);
+  }
+  .h-1 {
+    height: 10vh;
+  }
+  .h-2 {
+    height: 20vh;
+  }
+  .h-3 {
+    height: 30vh;
+  }
+  .h-4 {
+    height: 40vh;
+  }
+  .h-5 {
+    height: 50vh;
+  }
+  .h-6 {
+    height: 60vh;
+  }
+  .h-7 {
+    height: 70vh;
+  }
+  .h-8 {
+    height: 80vh;
+  }
+  .h-9 {
+    height: 90vh;
+  }
+  .h-10 {
+    height: 100vh;
+  }
+  .price {
+    font-weight: bold;
+  }
+  .discount {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
